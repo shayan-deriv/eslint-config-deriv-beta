@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-deriv",
-  "version": "1.0.0",
+  "name": "eslint-config-deriv-beta",
+  "version": "1.0.2",
   "description": "Deriv's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shayan-deriv/deriv-configs.git"
+    "url": "git+https://github.com/shayan-deriv/eslint-config-deriv.git"
   },
   "author": "Shayan Khaleghparast",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shayan-deriv/deriv-configs/issues"
+    "url": "https://github.com/shayan-deriv/eslint-config-deriv/issues"
   },
-  "homepage": "https://github.com/shayan-deriv/deriv-configs#readme",
+  "homepage": "https://github.com/shayan-deriv/eslint-config-deriv#readme",
   "keywords": [
     "eslint",
     "eslintconfig",
