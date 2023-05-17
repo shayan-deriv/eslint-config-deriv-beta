@@ -44,7 +44,7 @@ This package provides Deriv's .eslintrc as an extensible shared config.
 
  2.  add the below to the **devDependencies** of the root `package.json`:
 
-	"eslint-config-deriv-beta": "^1.0.2"
+	"eslint-config-deriv-beta": "^1.0.3"
 
  3.  run `npm run i` and then `npm run bootstrap`
 
