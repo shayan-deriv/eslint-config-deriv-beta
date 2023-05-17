@@ -23,6 +23,8 @@ This package provides Deriv's .eslintrc as an extensible shared config.
     npm i eslint-config-deriv-beta
 
  For **deriv-app:**
+ 
+ 
  1. remove the below packages from package.json:
 	  - `"@typescript-eslint/eslint-plugin": "^5.8.0"`
 	  - `"@typescript-eslint/parser": "^5.8.0"`
@@ -42,12 +44,14 @@ This package provides Deriv's .eslintrc as an extensible shared config.
 
  2.  add the below to the **devDependencies** of the root `package.json`:
 
-	   "eslint-config-deriv-beta": "^1.0.2"
+	"eslint-config-deriv-beta": "^1.0.2"
 
  3.  run `npm run i` and then `npm run bootstrap`
 
 # Usage
 For **deriv-com:**
+
+
 inside `.eslinrc` remove `plugins` , `rules` , `env`, `parser` , and `settings` and then change "extends" like this:
 
     "extends": ["eslint:recommended", "deriv-beta"]
@@ -56,9 +60,12 @@ and to test if it's working run the bellow command:
     npm run eslint
 
 For **deriv-app:**
+
+
 inside `.eslinrc` remove everything except `overrides` and add this at the top :
 
     "extends": ["deriv-beta"]
+    
 and to test if it's working run the bellow command: 
 
     npm run test:eslint-all
