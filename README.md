@@ -20,7 +20,7 @@ This package provides Deriv's .eslintrc as an extensible shared config.
 
  2.  Install the latest version:
 
-    npm i -D eslint-config-deriv
+    npm i -D eslint-config-deriv-test
 
  For **deriv-app:**
 
@@ -44,7 +44,7 @@ This package provides Deriv's .eslintrc as an extensible shared config.
 
  2.  add the below to the **devDependencies** of the root `package.json`:
 
-	"eslint-config-deriv": "^1.0.0-beta.0"
+	"eslint-config-deriv-test": "^1.0.0-beta.0"
 
  3.  run `npm run i` and then `npm run bootstrap`
 
@@ -54,7 +54,7 @@ For **deriv-com:**
 
 inside `.eslinrc` remove `plugins` , `rules` , `env`, `parser` , and `settings` and then change "extends" like this:
 
-    "extends": ["eslint:recommended", "deriv"]
+    "extends": ["eslint:recommended", "deriv-test"]
 and to test if it's working run the bellow command:
 
     npm run eslint
@@ -64,7 +64,7 @@ For **deriv-app:**
 
 inside `.eslinrc` remove everything except `overrides` and add this at the top :
 
-    "extends": ["deriv"]
+    "extends": ["deriv-test"]
 
 and to test if it's working run the bellow command:
 
