@@ -55,18 +55,17 @@ module.exports = {
   rules: {
 
     //------------------------------------rules from deriv-app------------------------------------
-    camelcase: 0,
-    // semi                                : ['error', 'always'],
+    'camelcase': 0,
     'array-callback-return': 0,
     'arrow-body-style': 0,
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    curly: 0,
+    'curly': 0,
     'eol-last': ['error', 'always'],
     'func-names': ['error', 'never'],
     'key-spacing': 0,
     'max-classes-per-file': ['warn', 2],
     'lines-between-class-members': 0,
-    indent: 0,
+    'indent': 0,
     'no-console': 'error',
     'no-else-return': ['error', { allowElseIf: true }],
     'no-multi-assign': 0,
@@ -75,9 +74,8 @@ module.exports = {
     'no-script-url': 0,
     'one-var': ['error', { initialized: 'never', uninitialized: 'always' }],
     'prefer-destructuring': 0,
-    quotes: 0,
+    'quotes': 0,
     'space-infix-ops': 'error',
-    'global-require': 'warn',
 
     // ------------------------------------rules from binary package------------------------------------
     // Restrict
@@ -91,8 +89,6 @@ module.exports = {
         functions: 'only-multiline',
       },
     ],
-    // indent: ['error', 4, { SwitchCase: 1 }],
-    // 'key-spacing': ['error', { align: 'colon' }],
     'max-len': [
       'error',
       120,
@@ -114,12 +110,8 @@ module.exports = {
       },
     ],
     'prefer-template': 'error',
-    radix: ['error', 'as-needed'],
+    'radix': ['error', 'as-needed'],
     'wrap-iife': ['error', 'inside', { functionPrototypeMethods: true }],
-    // 'no-nested-ternary': 'error',
-    // curly: 'error',
-    // quotes: ['error', 'single'],
-    // 'func-names': ['error', 'as-needed'],
 
     // Warning
     'no-nested-ternary': 'warn',
@@ -162,7 +154,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/extensions': [0, { jsx: 'always', json: 'always' }],
     'no-sequences': ['warn'],
-    'import/no-unresolved': [2, { ignore: ['@deriv/components', '@deriv/shared'] }],
     'react/prop-types': [
       1,
       {
@@ -173,15 +164,8 @@ module.exports = {
 
     // deriv-com
     "strict": 0,
-    // "no-console": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    // "no-trailing-spaces": [
-    //   "error",
-    //   {
-    //     "skipBlankLines": true
-    //   }
-    // ],
     "no-unused-vars": "error",
     "no-multiple-empty-lines": [
       "error",
