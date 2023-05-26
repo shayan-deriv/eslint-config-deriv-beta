@@ -52,7 +52,7 @@ This package provides Deriv's .eslintrc as an extensible shared config.
 For **deriv-com:**
 
 
-inside `.eslinrc` remove `plugins` , `rules` , `env`, `parser` , and `settings` and then change "extends" like this:
+inside `.eslintrc` remove `plugins` , `rules` , `env`, `parser` , and `settings` and then change "extends" like this:
 
     "extends": ["eslint:recommended", "deriv"]
 and to test if it's working run the bellow command:
