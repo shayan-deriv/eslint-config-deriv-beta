@@ -1,5 +1,5 @@
 # eslint-config-deriv
-This package provides Deriv's .eslintrc as an extensible shared config.
+This package provides Deriv's `.eslintrc` as an extensible shared config.
 
 # installation
  For **deriv-com:**
@@ -62,7 +62,7 @@ and to test if it's working run the bellow command:
 For **deriv-app:**
 
 
-inside `.eslinrc` remove everything except `overrides` and add this at the top :
+inside `.eslintrc` remove everything except `overrides` and add this at the top :
 
     "extends": ["deriv"]
 
