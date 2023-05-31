@@ -76,9 +76,6 @@ module.exports = {
     'prefer-destructuring': 0,
     'quotes': 0,
     'space-infix-ops': 'error',
-
-    // ------------------------------------rules from binary package------------------------------------
-    // Restrict
     'comma-dangle': [
       'error',
       {
@@ -112,19 +109,12 @@ module.exports = {
     'prefer-template': 'error',
     'radix': ['error', 'as-needed'],
     'wrap-iife': ['error', 'inside', { functionPrototypeMethods: true }],
-
-    // Warning
     'no-nested-ternary': 'warn',
-    // 'one-var': 'warn',
     'no-useless-escape': 'warn',
     'no-underscore-dangle': 'warn',
-
-    // Allow
     'no-use-before-define': 'off',
     'no-plusplus': 'off',
     'no-return-assign': 'off',
-
-    // import rules
     'import/no-extraneous-dependencies': [
       'warn',
       {
@@ -144,7 +134,7 @@ module.exports = {
 
     'import/no-useless-path-segments': 'error',
     'import/order': [
-      0, // TODO: we should turn this to error after we sorted our import orders.
+      0,
       {
         groups: [['builtin', 'external'], 'internal', 'sibling', 'parent'],
         'newlines-between': 'ignore',
@@ -161,8 +151,6 @@ module.exports = {
       },
     ],
     'react/self-closing-comp': 'error',
-
-    // deriv-com
     "strict": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -174,39 +162,11 @@ module.exports = {
         "maxEOF": 1
       }
     ],
-
-
     "space-unary-ops": "error",
-    // "import/no-extraneous-dependencies": [
-    //     0,
-    //     {
-    //         "extensions": [".jsx"]
-    //     }
-    // ],
-
-
-    // "import/order": [
-    //   "error",
-    //   {
-    //     "groups": ["builtin", "external", "parent", "sibling", "index"],
-    //     "newlines-between": "never"
-    //   }
-    // ],
-    // "react/sort-prop-types": [
-    //   "error",
-    //   {
-    //     "ignoreCase": true,
-    //     "sortShapeProp": true
-    //   }
-    // ],
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
-    // "jest/no-identical-title": "error",
     "jest/prefer-to-have-length": "warn",
-    // "jest/valid-expect": "error",
     "react/react-in-jsx-scope": "off",
-
-    //TODO: I'm disabling this rules for now but later we need to fix the code
     "jest/valid-expect": "off",
     "no-trailing-spaces": "off",
     "jest/no-identical-title": "off",
