@@ -10,7 +10,7 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
   ],
-  plugins: ['prettier', 'testing-library', '@typescript-eslint', 'jest'],
+  plugins: ['prettier', 'testing-library', '@typescript-eslint', 'jest', 'localize-usage'],
   ignorePatterns: ['**/dist/**/*.js', '**/lib/**/*.js'],
   globals: {
     dataLayer: true,
@@ -170,12 +170,11 @@ module.exports = {
     "jest/valid-expect": "off",
     "no-trailing-spaces": "off",
     "jest/no-identical-title": "off",
-
-
-    // these are rules that made deriv-com tests fail
     "no-shadow": "off",
     "eqeqeq": "off",
     "consistent-return": "off",
     'no-unused-expressions': 'off',
+    "localize-usage/only-string-literal-argument": "error",
+    "localize-usage/no-invalid-identifier-in-prop-value": "error",
   },
 };
