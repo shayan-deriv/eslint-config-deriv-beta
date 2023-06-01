@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-deriv",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0-beta.5",
   "description": "Deriv's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,8 @@
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.8.0",
     "@babel/eslint-parser": "^7.17.0",
-    "eslint-plugin-localize-usage": "^1.0.6"
+    "eslint-plugin-localize-usage": "^1.0.6",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
@@ -67,6 +68,7 @@
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "@babel/eslint-parser": "^7.17.0",
-    "eslint-plugin-localize-usage": "^1.0.6"
+    "eslint-plugin-localize-usage": "^1.0.6",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
   }
 }
